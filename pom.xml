@@ -22,7 +22,7 @@
 
     <groupId>io.gravitee.policy</groupId>
     <artifactId>gravitee-policy-url-rewriting</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.0</version>
 
     <name>Gravitee IO - Policy - URL rewriting</name>
     <description>Description of the URL Rewriting Gravitee Policy</description>
@@ -34,10 +34,10 @@
     </parent>
 
     <properties>
-        <gravitee-gateway-api.version>1.10.0</gravitee-gateway-api.version>
+        <gravitee-gateway-api.version>1.11.0</gravitee-gateway-api.version>
         <gravitee-policy-api.version>1.2.0</gravitee-policy-api.version>
-        <gravitee-common.version>1.11.0</gravitee-common.version>
-        <gravitee-gateway.version>1.18.0-SNAPSHOT</gravitee-gateway.version>
+        <gravitee-common.version>1.12.0</gravitee-common.version>
+        <gravitee-gateway.version>1.18.0</gravitee-gateway.version>
 
         <maven-assembly-plugin.version>2.5.5</maven-assembly-plugin.version>
     </properties>
