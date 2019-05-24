@@ -172,4 +172,17 @@ public class URLRewritingPolicyTest {
         // Check results
         Assert.assertNotNull(stream);
     }
+
+    @Test
+    public void shouldRewriteEmptyBody() {
+        // Prepare
+        when(configuration.isRewriteResponseBody()).thenReturn(true);
+
+        // Execute policy
+        final ReadWriteStream stream = urlRewritingPolicy.onResponseContent(request, response, executionContext);
+        stream.end();
+
+        // Check results
+        Assert.assertNotNull(stream);
+    }
 }
